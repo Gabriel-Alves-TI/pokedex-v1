@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--FIM GOOGLE FONTS-->
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--BOOTSTRAP ICONS-->
+    <script src="./js/script.js" defer></script>
+    <script src="./js/busca.js" defer></script>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <section>
+        <header>
+            <div class="borda">
+                <img src="./img/pokemon_logo.png" alt="Pokedex Logo" id="pokedex">
+            </div>
+        </header>
+    <!--BUSCA DE POKEMONS-->
+        <div class="main">
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Procure por um pokemon">
+                <button id="search-button" type="submit">Procurar</button>
+                <div class="search-pokemon" id="search-pokemon"></div>
+            </div>
+        </div>
+
+    </section>
+    <!--LISTA DE POKEMONS-->
+    <section>
+        <div class="box-pokemons">
+            <div class="grid-container" id="grid-container">
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
